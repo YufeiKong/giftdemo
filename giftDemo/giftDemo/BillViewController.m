@@ -31,7 +31,12 @@
 @end
 
 @implementation BillViewController
+-(void)popLast{
 
+    [self dismissViewControllerAnimated:YES completion:nil];
+   
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -39,6 +44,13 @@
     _nameArray = [[NSArray alloc]init];
     _numArray = [[NSArray alloc]init];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *back = [[UIButton alloc]initWithFrame:CGRectMake(20, 20, 30, 30)];
+    [back setTitle:@"返回" forState:UIControlStateNormal];
+    back.titleLabel.font = kUIFont(15);
+    [back setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [back addTarget:self action:@selector(popLast) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:back];
     
     //title切换
     UIView *titleView = [[UIView alloc]initWithFrame:CGRectMake(0, 64, kScreenWidth, AutoSize(72))];

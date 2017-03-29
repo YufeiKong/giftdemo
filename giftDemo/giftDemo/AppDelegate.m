@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "SendGift.h"
+
 @interface AppDelegate ()
 
 @end
@@ -15,13 +15,6 @@
 @implementation AppDelegate
 @synthesize manager;
 
--(AnimOperationManager *)manager
-{
-    if (!manager) {
-        manager = [[AnimOperationManager alloc]init];
-    }
-    return manager;
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -50,7 +43,6 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
    
-    self.manager = [[AnimOperationManager alloc]init];
     
 }
 

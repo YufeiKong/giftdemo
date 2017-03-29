@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E08A1ECD1E55454200057958 /* GiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E08A1EC01E55454200057958 /* GiftModel.m */; };
-		E08A1ECE1E55454200057958 /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E08A1EC21E55454200057958 /* ChatMessage.m */; };
-		E08A1ECF1E55454200057958 /* Shakelabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E08A1EC41E55454200057958 /* Shakelabel.m */; };
-		E08A1ED01E55454200057958 /* PresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E08A1EC61E55454200057958 /* PresentView.m */; };
-		E08A1ED11E55454200057958 /* AnimOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E08A1EC81E55454200057958 /* AnimOperation.m */; };
-		E08A1ED21E55454200057958 /* AnimOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E08A1ECA1E55454200057958 /* AnimOperationManager.m */; };
 		E091F19F1E4D6252000D516A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E091F19E1E4D6252000D516A /* main.m */; };
 		E091F1A21E4D6252000D516A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E091F1A11E4D6252000D516A /* AppDelegate.m */; };
 		E091F1A51E4D6252000D516A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E091F1A41E4D6252000D516A /* ViewController.m */; };
@@ -58,19 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E08A1EBF1E55454200057958 /* GiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftModel.h; sourceTree = "<group>"; };
-		E08A1EC01E55454200057958 /* GiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftModel.m; sourceTree = "<group>"; };
-		E08A1EC11E55454200057958 /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
-		E08A1EC21E55454200057958 /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
-		E08A1EC31E55454200057958 /* Shakelabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shakelabel.h; sourceTree = "<group>"; };
-		E08A1EC41E55454200057958 /* Shakelabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shakelabel.m; sourceTree = "<group>"; };
-		E08A1EC51E55454200057958 /* PresentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentView.h; sourceTree = "<group>"; };
-		E08A1EC61E55454200057958 /* PresentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentView.m; sourceTree = "<group>"; };
-		E08A1EC71E55454200057958 /* AnimOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperation.h; sourceTree = "<group>"; };
-		E08A1EC81E55454200057958 /* AnimOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperation.m; sourceTree = "<group>"; };
-		E08A1EC91E55454200057958 /* AnimOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperationManager.h; sourceTree = "<group>"; };
-		E08A1ECA1E55454200057958 /* AnimOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperationManager.m; sourceTree = "<group>"; };
-		E08A1ECB1E55454200057958 /* SendGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendGift.h; sourceTree = "<group>"; };
 		E091F19A1E4D6252000D516A /* giftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E091F19E1E4D6252000D516A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E091F1A01E4D6252000D516A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,27 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E08A1ECC1E55454200057958 /* GiftPart */ = {
-			isa = PBXGroup;
-			children = (
-				E08A1EBF1E55454200057958 /* GiftModel.h */,
-				E08A1EC01E55454200057958 /* GiftModel.m */,
-				E08A1EC11E55454200057958 /* ChatMessage.h */,
-				E08A1EC21E55454200057958 /* ChatMessage.m */,
-				E08A1EC31E55454200057958 /* Shakelabel.h */,
-				E08A1EC41E55454200057958 /* Shakelabel.m */,
-				E08A1EC51E55454200057958 /* PresentView.h */,
-				E08A1EC61E55454200057958 /* PresentView.m */,
-				E08A1EC71E55454200057958 /* AnimOperation.h */,
-				E08A1EC81E55454200057958 /* AnimOperation.m */,
-				E08A1EC91E55454200057958 /* AnimOperationManager.h */,
-				E08A1ECA1E55454200057958 /* AnimOperationManager.m */,
-				E08A1ECB1E55454200057958 /* SendGift.h */,
-			);
-			name = GiftPart;
-			path = "../../../Downloads/封装送礼品/封装送礼品";
-			sourceTree = "<group>";
-		};
 		E091F1911E4D6252000D516A = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +156,6 @@
 		E091F19C1E4D6252000D516A /* giftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E08A1ECC1E55454200057958 /* GiftPart */,
 				E091F1A01E4D6252000D516A /* AppDelegate.h */,
 				E091F1A11E4D6252000D516A /* AppDelegate.m */,
 				E091F1A31E4D6252000D516A /* ViewController.h */,
@@ -438,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08A1ED11E55454200057958 /* AnimOperation.m in Sources */,
 				E091F1C41E4D64C7000D516A /* GiftView.m in Sources */,
 				E099EDB31E52F80F00A64C37 /* MJRefreshFooter.m in Sources */,
 				E099EDB71E52F80F00A64C37 /* MJRefreshAutoStateFooter.m in Sources */,
@@ -448,18 +406,13 @@
 				E099EDC61E52FC3C00A64C37 /* ReceiveGiftCell.m in Sources */,
 				E099EDBC1E52F80F00A64C37 /* MJRefreshNormalHeader.m in Sources */,
 				E099EDB91E52F80F00A64C37 /* MJRefreshBackNormalFooter.m in Sources */,
-				E08A1ED01E55454200057958 /* PresentView.m in Sources */,
-				E08A1ECD1E55454200057958 /* GiftModel.m in Sources */,
-				E08A1ECE1E55454200057958 /* ChatMessage.m in Sources */,
 				E099EDBF1E52F80F00A64C37 /* MJRefreshConst.m in Sources */,
 				E099EDC31E52F80F00A64C37 /* UIView+MJExtension.m in Sources */,
 				E099EDB61E52F80F00A64C37 /* MJRefreshAutoNormalFooter.m in Sources */,
 				E099EDBA1E52F80F00A64C37 /* MJRefreshBackStateFooter.m in Sources */,
-				E08A1ECF1E55454200057958 /* Shakelabel.m in Sources */,
 				E099ED7D1E52B1C100A64C37 /* RechargeViewController.m in Sources */,
 				E099EDC11E52F80F00A64C37 /* UIScrollView+MJExtension.m in Sources */,
 				E099EDC21E52F80F00A64C37 /* UIScrollView+MJRefresh.m in Sources */,
-				E08A1ED21E55454200057958 /* AnimOperationManager.m in Sources */,
 				E091F1A51E4D6252000D516A /* ViewController.m in Sources */,
 				E099EDBB1E52F80F00A64C37 /* MJRefreshGifHeader.m in Sources */,
 				E091F1A21E4D6252000D516A /* AppDelegate.m in Sources */,

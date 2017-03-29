@@ -310,8 +310,8 @@
     UIAlertAction * okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
        // [self okDeleted];
         
-        RechargeViewController *recharge = [[RechargeViewController alloc]init];
-        [parentViewController presentViewController:recharge animated:YES completion:nil];
+        //RechargeViewController *recharge = [[RechargeViewController alloc]init];
+       // [parentViewController presentViewController:recharge animated:YES completion:nil];
         
     }];
     [alert addAction:cancelAction];
